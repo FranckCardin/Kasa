@@ -1,11 +1,13 @@
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.png';
 import Nav from './Nav';
-import '../styles/header.scss';
+import '../styles/header.css';
 
 function Header() {
 	return (
 		<header className='header'>
-			<div> <img src={Logo} alt="kasa" /> </div>
+			<div>
+                <img src={Logo} alt="kasa" />
+            </div>
         <Nav />
 		</header>
 	)
