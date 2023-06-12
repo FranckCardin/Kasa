@@ -2,7 +2,7 @@ import data from "../data/data";
 import '../styles/card.css';
 
 
-function Gallery(){
+function Card(){
     return (
         //Récupération et création d'un tableau des données des logements du fichier data
           <main>
@@ -18,4 +18,4 @@ function Gallery(){
     )
 }
 
-export default Gallery;
+export default Card;
