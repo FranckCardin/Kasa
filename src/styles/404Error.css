@@ -1,0 +1,33 @@
+.not_found{
+    max-width: 95%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    color: #FF6060;
+}
+
+.not_found__infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.not_found__title{
+    font-weight: 700;
+    font-size: 150px;
+}
+
+.not_found__content{
+    font-weight: 500;
+    font-size: clamp(20px, 4vw, 36px);
+    text-align: center;
+}
+
+.not_found__return{
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #FF6060;
+    font-weight: 500;
+    font-size: clamp(12px, 2.5vw, 18px);
+}
