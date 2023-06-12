@@ -1,4 +1,4 @@
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/LogoHeader.png';
 import Nav from './Nav';
 import '../styles/header.css';
 
