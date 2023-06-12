@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
-import Logements from './pages/Logements';
+import Accommodation from './pages/Accommodation';
 import Notfound from './pages/404Error';
 
 function App(){
@@ -10,7 +10,7 @@ function App(){
         <Routes>
             <Route path="/" element = { <Home /> } />
             <Route path="/Apropos" element = { <About /> } />
-            <Route path="/Logements" element = { <Logements /> } />
+            <Route path="/Logements" element = { <Accommodation /> } />
             <Route path="*" element = { <Notfound /> } />
         </Routes>
     );
