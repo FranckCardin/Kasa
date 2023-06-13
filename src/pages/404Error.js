@@ -1,6 +1,8 @@
-import '../styles/404Error.scss'
+//import Composant 
 import Header from "../components/Header";
 import { Link } from 'react-router-dom';
+//import SCSS 
+import '../styles/404Error.scss'
 
 function NotFound() {
 	return (
