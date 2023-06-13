@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
-import '../styles/nav.css';
+import { NavLink } from "react-router-dom";
+import '../styles/nav.scss';
 
 function Nav(){
     return (
         <nav className="navbar">
             <ul className="navbar__list">
-                <li><Link to="/">Accueil</Link></li>
-                <li><Link to="Apropos">A propos</Link></li>
+                <li><NavLink to="/" className={(nav) => nav.isActive ? "active" : "" }>Accueil</NavLink></li>
+        
+                <li><NavLink to="/Apropos" className={(nav) => nav.isActive ? "active" : "" }>A propos</NavLink></li>
             </ul>
         </nav>
     )
