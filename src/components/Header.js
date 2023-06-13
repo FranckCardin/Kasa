@@ -1,5 +1,8 @@
-import Logo from '../assets/LogoHeader.png';
+//import Composant 
 import Nav from './Nav';
+//import IMG 
+import Logo from '../assets/LogoHeader.png';
+//import SCSS
 import '../styles/header.scss';
 
 function Header() {
