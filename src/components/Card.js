@@ -1,9 +1,11 @@
+//import DATA 
 import data from "../data/data";
+//import SCSS
 import '../styles/card.scss';
 
 function Card(){
     return (
-        //Récupération et création d'un tableau des données des logements du fichier data
+        //Récupération et création d'un tableau (.map) des données des logements du fichier data
           <main>
             <div className="card">
                 { data.map ((data, index) => (
