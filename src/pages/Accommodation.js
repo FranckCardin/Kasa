@@ -1,5 +1,7 @@
+//import Composant 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+//import SCSS
 import "../styles/accommodation.scss";
 
 
