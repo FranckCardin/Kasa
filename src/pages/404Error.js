@@ -1,4 +1,4 @@
-import '../styles/404Error.css'
+import '../styles/404Error.scss'
 import Header from "../components/Header";
 import { Link } from 'react-router-dom';
 
