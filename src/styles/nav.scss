@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    &__list{
+        display: flex;
+        gap: 100px;
+        list-style-type: none;
+    } 
+    a{
+        font-family: $font-family;
+        color: $color-primary;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+        .active{
+            text-decoration: underline;
+        }
+
+}
+
