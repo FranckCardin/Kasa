@@ -1,11 +1,11 @@
-import BackgroundBanner from '../assets/BackgroundBanner.png';
-import '../styles/banner.css';
+import '../styles/banner.scss';
 
-function Banner()  {
+//Fonction avec deux paramètres pour l'image de la bannière et le titre en fonction de la page
+function Banner ({BackgroundPicture, title})  {
     return (
         <div className="banner">
-            <img className="banner__background" src={BackgroundBanner} alt="BackgroundBanner" />
-            <h1 className="banner__title">Chez vous, partout et ailleurs</h1>
+            <img className="banner__background" src={BackgroundPicture} />
+            <h1 className="banner__title">{title}</h1>
         </div>
     )
 }
