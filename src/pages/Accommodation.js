@@ -27,8 +27,8 @@ function Accommodation(){
 
                     </div>
                     <div className="Collapse__accommodation">
-                        <Collapse title="Description" content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."/>
-                        <Collapse title="Équipement" content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."/>
+                        <Collapse title="Description" content=""/>
+                        <Collapse title="Équipement" content=""/>
                     </div>
                 </main>
                 <Footer />
