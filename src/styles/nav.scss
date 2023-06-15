@@ -1,14 +1,17 @@
 @import "./variables.scss";
 
 .navbar{
+    /* CSS BOX */
     display: flex;
     align-items: flex-end;
     &__list{
+        /* CSS BOX */
         display: flex;
         gap: 100px;
         list-style-type: none;
     } 
     a{
+        /* CSS TEXT STYLES */
         font-family: $font-family;
         color: $color-primary;
         font-style: normal;
@@ -16,10 +19,12 @@
         font-size: 24px;
         text-decoration: none;
         &:hover{
+            /* CSS TEXT STYLES */
             text-decoration: underline;
         }
     }
         .active{
+            /* CSS TEXT STYLES */
             text-decoration: underline;
         }
 
