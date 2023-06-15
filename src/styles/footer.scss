@@ -1,6 +1,7 @@
 @import "./variables.scss";
 
 .footer {
+    /* CSS BOX */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,13 +10,15 @@
     height: 200px;
     background-color: #000;
     &__logo {
+        /* CSS BOX */
         width: 160px;
         padding: 20px 0 40px 0;
     }
     &__copyright {
+        /* CSS TEXT STYLES */
+        font-family: $font-family;
         color: $color-text;
         font-weight: 500;
         font-size: 24px;
-        font-family: $font-family;
     }
 }
