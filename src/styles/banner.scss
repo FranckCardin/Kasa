@@ -1,6 +1,7 @@
 @import "./variables.scss";
 
 .banner {
+    /* CSS BOX */
     display: flex;
     justify-content: center;
     position: relative;
@@ -9,24 +10,27 @@
     border-radius: 25px;
     margin: 30px auto;
     &__background {
+        /* CSS BOX */
         width: 95%;
         border-radius: 25px;
         object-fit: cover;
         opacity: 1;
     }
-    &__title {    
+    &__title {  
+        /* CSS BOX */  
         position: absolute;
         text-align: center;
-        padding-top: 80px;
-        font-family: $font-family;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 68px;
-        color: $color-text;
         background-color: rgba(0, 0, 0, 0.3);
         width: 95%;
         height: 143px;
         border-radius: 25px;
+        padding-top: 80px;
+        /* CSS TEXT STYLES */
+        font-family: $font-family;
+        color: $color-text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 68px;
     }
 }
