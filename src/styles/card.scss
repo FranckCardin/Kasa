@@ -1,15 +1,17 @@
 @import "./variables.scss";
 
 .card{
+    /* CSS BOX */
     display: grid;
 	grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    background-color: #F7F7F7;
+    background-color: $color-background;
     padding: 50px;
     border-radius: 25px;
     width: 89%;
     margin: 40px auto;
     &__content{
+        /* CSS BOX */
         position: relative;
         width: 100%;
         height: 100%;
@@ -18,15 +20,18 @@
         overflow: hidden;
     }
     &__content:hover{
+        /* CSS BOX */
         box-shadow: 0 2px 8px rgb(0, 0, 0);
     }
     &__img{
+        /* CSS BOX */
         width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center;
     }
     &__title{
+        /* CSS BOX */
         position: absolute;
         display: flex;
         align-items: flex-end;
@@ -35,9 +40,10 @@
         height: 100%;
         background: rgba(0, 0, 0, 0.3);
         padding-left: 15px;
+        /* CSS TEXT STYLES */
         font-family: $font-family;
+        color: $color-text;
         font-weight: 500;
         font-size: 18px;
-        color: $color-text;
     }        
 }
