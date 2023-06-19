@@ -1,1 +1,81 @@
 @import "../styles/variables.scss";
+
+.accommodation{ 
+    /* CSS BOX */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 15px auto; 
+    /* CSS TEXT STYLES */
+    color: $color-primary;
+    font-family: $font-family;
+    &__content{
+        /* CSS BOX */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__content--title{
+        /* CSS TEXT STYLES */
+        font-size: 36px;
+    }
+    &__content--location{
+        /* CSS TEXT STYLES */
+        font-size: 18px;
+    }
+    &__tags{
+        /* CSS BOX */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;  
+        &--btn{
+            /* CSS BOX */
+            display: inline;
+            padding: 5px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            background-color: $color-primary;
+            /* CSS TEXT STYLES */
+            font-family: $font-family;
+            color: $color-text;
+            &:hover{
+                /* CSS BOX */
+                box-shadow: 0 2px 8px rgb(0, 0, 0);
+            }
+        }
+    }
+    &__host{
+        /* CSS BOX */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &--name{
+            /* CSS BOX */
+            width: 20px;
+            margin-right: 50px;  
+        }
+        &--picture{
+            /* CSS BOX */
+            width: 64px;
+            height: 64px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+        }
+    }
+}
+
+.collapse__accommodation{
+    /* CSS BOX */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px auto; 
+    &--content{
+        width: 100%;
+    }
+}

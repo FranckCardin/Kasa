@@ -40,10 +40,14 @@
         height: 100%;
         background: rgba(0, 0, 0, 0.3);
         padding-left: 15px;
-        /* CSS TEXT STYLES */
-        font-family: $font-family;
-        color: $color-text;
-        font-weight: 500;
-        font-size: 18px;
+        &--text{
+            /* CSS BOX */
+            margin-bottom: 15px;
+            /* CSS TEXT STYLES */
+            font-family: $font-family;
+            color: $color-text;
+            font-weight: 500;
+            font-size: 18px;
+        }
     }        
 }

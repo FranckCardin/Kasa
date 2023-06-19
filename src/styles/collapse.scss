@@ -20,6 +20,7 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 34px;
+        /* CSS ARROWS TRANSITION */
         .arrow{
             transition: all 0.2s ease-in-out;
         }
@@ -32,13 +33,17 @@
     }
     &__content--open{
         /* CSS BOX */
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
         background-color: $color-background;
         border-radius: 0px 10px;
         padding: 20px;
+        transition: padding-top 0.2s linear;
         /* CSS TEXT STYLES */
         font-family: $font-family;
         color: $color-primary;
         font-size: 18px;
-        line-height: 25px; 
+        line-height: 30px; 
     }
 }
