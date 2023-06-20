@@ -3,8 +3,8 @@
 import ArrowRight from "../assets/ArrowRight.png";
 import ArrowLeft from "../assets/ArrowLeft.png";
 
-function Slider() {
+function Slideshow() {
     
 }
 
-export default Slider;
+export default Slideshow;
