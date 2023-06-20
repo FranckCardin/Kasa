@@ -3,7 +3,7 @@ import { useState } from "react";
 //Import IMG
 import Arrow from '../assets/Arrow.png';
 //Import CSS
-import '../styles/collapse.scss';
+import '../styles/composants/collapse.scss';
 
 function Collapse({title, content}){
     const [isOpen, setIsOpen] = useState(false);
