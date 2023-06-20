@@ -1,7 +1,7 @@
 //import IMG 
 import LogoFooter from "../assets/LogoFooter.png";
 //import SCSS 
-import "../styles/footer.scss"
+import "../styles/composants/footer.scss"
 
 function Footer() {
     return (
