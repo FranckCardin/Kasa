@@ -3,12 +3,11 @@
 .slider{
     position: relative;
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 415px;
     border-radius: 25px;
     background-position: center;
     background-size: cover;
-    width: 95%;
     margin: 20px auto;
     &__arrow{
         position: absolute;
