@@ -8,8 +8,6 @@ import '../styles/collapse.scss';
 function Collapse({title, content}){
     const [isOpen, setIsOpen] = useState(false);
 
-    console.log(content);
-
     return (
         <div className="collapse">
             <h3 className="collapse__title" onClick={() => setIsOpen(!isOpen)}> {title} 
