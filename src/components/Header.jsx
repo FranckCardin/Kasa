@@ -3,7 +3,7 @@ import Nav from './Nav';
 //import IMG 
 import Logo from '../assets/LogoHeader.png';
 //import SCSS
-import '../styles/header.scss';
+import '../styles/composants/header.scss';
 
 function Header() {
 	return (
