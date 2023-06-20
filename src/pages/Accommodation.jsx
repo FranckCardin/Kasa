@@ -2,13 +2,15 @@
 import { useParams } from "react-router-dom";
 import Header from '../components/Header';
 import Slideshow from '../components/Slideshow';
+import Infos from "../components/Infos";
+import Host from "../components/Host";
 import Rating from '../components/Rating';
 import Collapse from '../components/Collapse';
 import Footer from '../components/Footer';
 //import DATA 
 import Data from "../data/data";
 //import SCSS
-import "../styles/accommodation.scss";
+import "../styles/pages/accommodation.scss";
 
 function Accommodation(){
     
@@ -22,19 +24,18 @@ function Accommodation(){
         <>
         <Header />
             <main className="main__accommodation">
-                <section className="Slider">
-                    <Slideshow/>
+                <section className="slider__accomodation">
+                    <Slideshow imageSlider={dataCurrentAccomodation[0].pictures}/>
                 </section>
                 
                 <section className="accommodation">
                     <div className="accommodation__content">
                         <div className="accommodation__contentInfos">
-                            <h1 className="accommodation__contentInfos--title">{dataCurrentAccomodation[0].title}</h1>
-                            <p className="accommodation__contentInfos--location">{dataCurrentAccomodation[0].location}</p>
+                            < Infos title={dataCurrentAccomodation[0].title} location={dataCurrentAccomodation[0].location}/>
                         </div>
+
                         <div className="accommodation__host">
-                            <p className="accommodation__host--name">{dataCurrentAccomodation[0].host.name}</p>
-                            <img className="accommodation__host--picture"src={dataCurrentAccomodation[0].host.picture} alt="Hébergeur du logement"></img>
+                            <Host name={dataCurrentAccomodation[0].host.name} picture={dataCurrentAccomodation[0].host.picture}/>
                         </div>
                     </div>
 
