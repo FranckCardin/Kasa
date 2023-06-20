@@ -4,7 +4,7 @@ import Banner from '../components/Banner';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 //import Img
-import BackgroundBanner from '../assets/BackgroundBanner.png';
+import BackgroundHome from '../assets/BackgroundHome.png';
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
 		/* Affichage Banner avec l'img correspondante */
 		<div className='home'>
 			<Header />
-            <Banner BackgroundPicture={BackgroundBanner} alt="BannerHome" title="Chez vous, partout et ailleurs"/>
+            <Banner BackgroundPicture={BackgroundHome} alt="BannerHome" title="Chez vous, partout et ailleurs"/>
             <Card />
             <Footer />
 		</div>
