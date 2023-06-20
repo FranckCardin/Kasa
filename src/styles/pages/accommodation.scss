@@ -1,4 +1,4 @@
-@import "../styles/variables.scss";
+@import "../variables.scss";
 
 .accommodation{ 
     /* CSS BOX */
@@ -11,41 +11,12 @@
         /* CSS BOX */
         display: flex;
         justify-content: space-between;
-        gap: 10px;
         padding: 15px 0px;
-    }
-    &contentInfos--title{
-        /* CSS TEXT STYLES */
-        font-size: 36px;
-    }
-    &contentInfos--location{
-        /* CSS TEXT STYLES */
-        font-size: 18px;
-    }
-    &__host{
-        /* CSS BOX */
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        &--name{
-            /* CSS BOX */
-            width: 20px;
-            margin-right: 50px;  
-        }
-        &--picture{
-            /* CSS BOX */
-            width: 64px;
-            height: 64px;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 50%;
-        }
     }
     &__contentTagsRatings{
         /* CSS BOX */
         display: flex;
         justify-content: space-between;
-        gap: 10px;
         padding-top: 5px;
         &--tags{
             /* CSS BOX */
@@ -69,10 +40,6 @@
                     box-shadow: 0 2px 8px rgb(0, 0, 0);
                 }
             }
-        }
-        &--ratings{
-            display: flex;
-            gap: 10px;
         }
     }
 }
