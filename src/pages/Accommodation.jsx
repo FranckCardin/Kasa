@@ -1,7 +1,7 @@
 //import Composant 
 import { useParams } from "react-router-dom";
 import Header from '../components/Header';
-import Slider from '../components/Slider';
+import Slideshow from '../components/Slideshow';
 import Rating from '../components/Rating';
 import Collapse from '../components/Collapse';
 import Footer from '../components/Footer';
@@ -23,7 +23,7 @@ function Accommodation(){
         <Header />
             <main className="main__accommodation">
                 <section className="Slider">
-                    <Slider/>
+                    <Slideshow/>
                 </section>
                 
                 <section className="accommodation">
