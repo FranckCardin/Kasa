@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import '../variables.scss';
 
 .collapse{
     /* CSS BOX */
@@ -12,6 +12,10 @@
         background-color: $color-primary;
         border-radius: 10px;
         padding: 10px 15px;
+        &:hover{
+            /* CSS BOX */
+            box-shadow: 0 2px 8px rgb(0, 0, 0);
+        }
         cursor: pointer;
         /* CSS TEXT STYLES */
         font-family: $font-family;
