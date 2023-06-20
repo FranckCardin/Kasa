@@ -1,0 +1,8 @@
+@import '../variables.scss';
+
+.accommodation__contentTagsRatings{
+    &--ratings{
+        display: flex;
+        gap: 10px;
+    }
+}
