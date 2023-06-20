@@ -2,7 +2,7 @@
 import data from "../data/data";
 import { Link } from "react-router-dom";
 //import SCSS
-import '../styles/card.scss';
+import '../styles/composants/card.scss';
 
 function Card(){
     return (
