@@ -1,5 +1,5 @@
 //import SCSS 
-import '../styles/banner.scss';
+import '../styles/composants/banner.scss';
 
 //Fonction avec deux props pour l'image de la bannière et le titre en fonction de la page
 function Banner ({BackgroundPicture, title, alt})  {
