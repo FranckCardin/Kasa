@@ -1,6 +1,8 @@
 //import Img 
 import StarFull from '../assets/StarFull.png';
 import StarEmpty from '../assets/StarEmpty.png';
+//import CSS 
+import '../styles/composants/ratings.scss';
 
 function Rating(rate){
     const stars = [1, 2, 3, 4, 5];
