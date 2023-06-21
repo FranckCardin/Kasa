@@ -1,0 +1,27 @@
+@import "../variables.scss";
+
+.accommodation__contentTagsRatings{
+    &--tags{
+        /* CSS BOX */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;  
+        &--btn{
+            /* CSS BOX */
+            display: inline;
+            padding: 5px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            background-color: $color-primary;
+            /* CSS TEXT STYLES */
+            font-family: $font-family;
+            color: $color-text;
+            &:hover{
+                /* CSS BOX */
+                box-shadow: 0 2px 8px rgb(0, 0, 0);
+            }
+        }
+    }
+}
