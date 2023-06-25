@@ -1,7 +1,7 @@
-//import Img 
+//import IMG 
 import StarFull from '../assets/StarFull.png';
 import StarEmpty from '../assets/StarEmpty.png';
-//import CSS 
+//import SCSS 
 import '../styles/composants/ratings.scss';
 
 function Rating(rate){
