@@ -1,4 +1,4 @@
-//import Composant 
+//import COMPOSANT 
 import Nav from './Nav';
 //import IMG 
 import Logo from '../assets/LogoHeader.png';
