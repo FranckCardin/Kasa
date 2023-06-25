@@ -1,20 +1,22 @@
-//Import Composant
+//Import HOOK REACT
 import { useState } from 'react'
 //Import IMG
 import ArrowRight from "../assets/ArrowRight.png";
 import ArrowLeft from "../assets/ArrowLeft.png";
-//import CSS
+//import SCSS
 import "../styles/composants/slideshow.scss";
 
 function Slideshow({imageSlider}) {
     const [currentIndex, setCurrentIndex] = useState(0)
 
+    //Fonction pour l'image précedente
     const prevSlide = () => {
         setCurrentIndex(currentIndex - 1)
         if(currentIndex === 0)
             setCurrentIndex(imageSlider.length - 1)
     }
 
+    //Fonction pour l'image suivante
     const nextSlide = () => {
         setCurrentIndex(currentIndex + 1)
         if(currentIndex === imageSlider.length - 1)
