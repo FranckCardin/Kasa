@@ -9,12 +9,20 @@
     height: 223px;
     border-radius: 25px;
     margin: 30px auto;
+    @media screen and (max-width: 550px){
+        width: 95%;
+        height: 120px;
+    }
     &__background {
         /* CSS BOX */
         width: 95%;
         border-radius: 25px;
         object-fit: cover;
         opacity: 1;
+        @media screen and (max-width: 550px){
+            margin: 20px auto;
+            height: 120px;
+        }
     }
     &__title {  
         /* CSS BOX */  
@@ -25,6 +33,11 @@
         height: 143px;
         border-radius: 25px;
         padding-top: 80px;
+        @media screen and (max-width: 550px){
+            margin: 20px auto;
+            height: 80px;
+            padding-top: 40px;
+        }
         /* CSS TEXT STYLES */
         font-family: $font-family;
         color: $color-text;
@@ -32,5 +45,8 @@
         font-weight: 500;
         font-size: 48px;
         line-height: 68px;
+        @media screen and (max-width: 550px){
+            font-size: 24px;
+        }
     }
 }
