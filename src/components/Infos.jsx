@@ -1,4 +1,4 @@
-//import CSS
+//import SCSS
 import "../styles/composants/infos.scss";
 
 function Infos({title, location}) {
