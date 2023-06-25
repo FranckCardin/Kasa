@@ -1,4 +1,4 @@
-//import Composant 
+//import HOOK REACT 
 import { NavLink } from "react-router-dom";
 //import SCSS 
 import '../styles/composants/nav.scss';
