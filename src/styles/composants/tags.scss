@@ -1,12 +1,9 @@
 @import "../variables.scss";
 
-.accommodation__contentTagsRatings{
-    &--tags{
-        /* CSS BOX */
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;  
-        &--btn{
+.accommodation__contentTags{
+    /* CSS BOX */
+    display: flex;
+        &--tags{
             /* CSS BOX */
             display: inline;
             padding: 5px 15px;
@@ -24,4 +21,3 @@
             }
         }
     }
-}
