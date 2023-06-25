@@ -2,8 +2,11 @@
 
 .collapse{
     /* CSS BOX */
-    max-width: 80%;
+    max-width: 85%;
     margin: 20px auto;
+    @media screen and (max-width: 700px){
+        max-width: 90%;
+    }
     &__title{
         /* CSS BOX */
         display: flex;
@@ -12,6 +15,9 @@
         background-color: $color-primary;
         border-radius: 10px;
         padding: 10px 15px;
+        @media screen and (max-width: 700px){
+            padding: 5px 8px;
+        }
         &:hover{
             /* CSS BOX */
             box-shadow: 0 2px 8px rgb(0, 0, 0);
@@ -24,9 +30,15 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 34px;
+        @media screen and (max-width: 700px){
+            font-size: 18px;
+        }
         /* CSS ARROWS TRANSITION */
         .arrow{
             transition: all 0.2s ease-in-out;
+            @media screen and (max-width: 700px){
+                width: 5%;
+            }
         }
         .arrow_up{
             transform: rotate(-180deg);
