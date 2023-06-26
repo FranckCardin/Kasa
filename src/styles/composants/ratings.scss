@@ -3,5 +3,11 @@
 .accommodation__contentHostRatings{
     &--ratings{
         padding: 5px;
+    .ratings__starFull{
+        @media screen and (max-width: 550px){
+            width: 15px;
+            padding: 5px 3px;
+        }
+    }
    }
 }
