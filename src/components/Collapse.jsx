@@ -11,8 +11,9 @@ function Collapse({title, content}){
 
     return (
         <div className="collapse">
-            <h3 className="collapse__title" onClick={() => setIsOpen(!  isOpen)}> {title} 
+            <h3 className="collapse__title"> {title} 
                 <img className={isOpen ? 'arrow arrow_up' : 'arrow arrow_down'} 
+                     onClick={() => setIsOpen(!  isOpen)}
                      src={Arrow} 
                      alt="Contenu de la collapse" /> 
             </h3>
