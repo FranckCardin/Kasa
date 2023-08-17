@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kasa.git/static/css/main.9d2abc51.css",
+    "main.js": "/Kasa.git/static/js/main.f3f3c458.js",
+    "static/media/BackgroundAbout.png": "/Kasa.git/static/media/BackgroundAbout.9b95ada7a30d67f2fb6c.png",
+    "static/media/BackgroundHome.png": "/Kasa.git/static/media/BackgroundHome.6f8466de99bcc68e61a9.png",
+    "index.html": "/Kasa.git/index.html",
+    "main.9d2abc51.css.map": "/Kasa.git/static/css/main.9d2abc51.css.map",
+    "main.f3f3c458.js.map": "/Kasa.git/static/js/main.f3f3c458.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d2abc51.css",
+    "static/js/main.f3f3c458.js"
+  ]
+}
