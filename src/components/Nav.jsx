@@ -7,7 +7,7 @@ function Nav(){
     return (
         <nav className="navbar">
             <ul className="navbar__list">
-                <li><NavLink to="/" className={(nav) => nav.isActive ? "active" : "" }>Accueil</NavLink></li>
+                <li><NavLink to="/Home" className={(nav) => nav.isActive ? "active" : "" }>Accueil</NavLink></li>
                 <li><NavLink to="/Apropos" className={(nav) => nav.isActive ? "active" : "" }>A propos</NavLink></li>
             </ul>
         </nav>

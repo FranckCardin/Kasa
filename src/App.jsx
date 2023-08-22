@@ -14,7 +14,7 @@ function App(){
         //Routes des différentes pages du site
         //Si page non existante, redirection vers la page NotFound
         <Routes>
-            <Route path="/" element = { <Home /> } />
+            <Route path="/Home" element = { <Home /> } />
             <Route path="/Apropos" element = { <About /> } />
             <Route path="/Logements/:id" element = { <Accommodation /> } />
             <Route path="/PageNotFound" element = { <Notfound /> } />
